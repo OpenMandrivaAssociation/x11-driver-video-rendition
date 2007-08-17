@@ -40,6 +40,6 @@ rm -rf %{buildroot}
 %{_libdir}/xorg/modules/drivers/rendition_drv.so
 %{_libdir}/xorg/modules/v20002d.uc
 %{_libdir}/xorg/modules/v10002d.uc
-%{_mandir}/man4/rendition.4.bz2
+%{_mandir}/man4/rendition.*
 
 
