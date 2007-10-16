@@ -1,6 +1,6 @@
 Name: x11-driver-video-rendition
 Version: 4.1.3
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: The X.org driver for Rendition (Micron) Cards
 Group: System/X11
 URL: http://xorg.freedesktop.org
@@ -22,9 +22,7 @@ The X.org driver for Rendition (Micron) Cards
 %setup -q -n xf86-video-rendition-%{version}
 
 %build
-%configure2_5x	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir}
-
+%configure
 %make
 
 %install
@@ -41,5 +39,4 @@ rm -rf %{buildroot}
 %{_libdir}/xorg/modules/v20002d.uc
 %{_libdir}/xorg/modules/v10002d.uc
 %{_mandir}/man4/rendition.*
-
 
