@@ -1,8 +1,6 @@
-%define debug_package	%{nil}
-
 Name: x11-driver-video-rendition
 Version: 4.1.3
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: The X.org driver for Rendition (Micron) Cards
 Group: System/X11
 URL: http://xorg.freedesktop.org
