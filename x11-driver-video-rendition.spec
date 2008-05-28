@@ -1,7 +1,7 @@
 Name: x11-driver-video-rendition
 Version: 4.2.0
 Release: %mkrel 1
-Summary: The X.org driver for Rendition (Micron) Cards
+Summary: X.org driver for Rendition (Micron) Cards
 Group: System/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-rendition-%{version}.tar.bz2
