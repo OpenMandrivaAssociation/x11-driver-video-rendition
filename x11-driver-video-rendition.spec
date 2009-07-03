@@ -1,5 +1,5 @@
 Name: x11-driver-video-rendition
-Version: 4.2.1
+Version: 4.2.2
 Release: %mkrel 1
 Summary: X.org driver for Rendition (Micron) Cards
 Group: System/X11
