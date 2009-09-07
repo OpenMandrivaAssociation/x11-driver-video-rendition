@@ -21,7 +21,7 @@ x11-driver-video-rendition is the X.org driver for Rendition (Micron) Cards.
 %setup -q -n xf86-video-rendition-%{version}
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
