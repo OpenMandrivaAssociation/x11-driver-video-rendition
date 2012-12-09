@@ -1,0 +1,2 @@
+# xorg/modules/*.uc shouldn't be stripped
+addFilter("E: unstripped-binary-or-object")
