@@ -10,3 +10,13 @@
  /* All drivers using the mi colormap manipulation need this */
  #include "micmap.h"
  
+--- xf86-video-rendition-4.2.5/src/rendition.c~	2012-07-17 07:32:12.000000000 +0200
++++ xf86-video-rendition-4.2.5/src/rendition.c	2013-04-06 02:59:55.190719126 +0200
+@@ -1173,7 +1173,6 @@ renditionScreenInit(SCREEN_INIT_ARGS_DEC
+     fbPictureInit (pScreen, 0, 0);
+ 
+     xf86SetBlackWhitePixels(pScreen);
+-    miInitializeBackingStore(pScreen);
+    
+     /*********************************************************/
+     /* The actual setup of the driver-specific code          */
