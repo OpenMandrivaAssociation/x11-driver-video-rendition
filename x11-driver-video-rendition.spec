@@ -3,7 +3,7 @@
 Summary:	X.org driver for Rendition (Micron) Cards
 Name:		x11-driver-video-rendition
 Version:	4.2.5
-Release:	5
+Release:	6
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
