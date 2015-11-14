@@ -2,14 +2,13 @@
 
 Summary:	X.org driver for Rendition (Micron) Cards
 Name:		x11-driver-video-rendition
-Version:	4.2.5
-Release:	14
+Version:	4.2.6
+Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-rendition-%{version}.tar.bz2
 Source10:	x11-driver-video-rendition.rpmlintrc
-Patch0:		remove_mibstore_h.patch
 
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
@@ -24,7 +23,7 @@ x11-driver-video-rendition is the X.org driver for Rendition (Micron) Cards.
 %apply_patches
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
